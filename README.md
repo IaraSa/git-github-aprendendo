@@ -5,4 +5,7 @@
 * Uso do comando git restore;
 * Comando git push;
 * Comando pull;
-* Comando git fetch;
+* Comando git fetch:
+    git fetch
+    git diff origin/main
+    git pull
