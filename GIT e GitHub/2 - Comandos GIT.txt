@@ -27,6 +27,8 @@ Comandos básicos do GIT
 	git commit meu_diretorio
  * VÁRIOS ARQUIVOS
 	git commit meu_aquivo1.txt meu_aquivo2.txt
+ * TODOS OS ARQUIVOS E DIRETÓRIOS
+	git commit . -m  "Enviando repositórios com os arquivos para a pasta do GitHub"
 
 >> COMITAR INFORMANDO MENSAGEM (referenciando qual a atualização)
  * ARQUIVO:
