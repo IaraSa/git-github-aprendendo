@@ -9,3 +9,7 @@
 -       git fetch
 -       git diff origin/main
 -       git pull
+* Comando BRANCH (Ramificações)
+-       git branch testing
+-       git log --oneline --decorate
+-       git checkout testing
