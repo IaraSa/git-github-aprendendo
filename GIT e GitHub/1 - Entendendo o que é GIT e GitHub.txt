@@ -11,3 +11,7 @@ A maioria das operações feitas pelo GIT são locais e por isso boa parte das o
 - Usado para estudos;
 - Usado por corporações;
 - Usado também pela comunidade para atualizações de código aberto.
+
+
+>> BRANCHS 
+Sâo ramificações que podem ser feitas, para que os devs trabalhem separadamente para adicionar um novo recurso ou corrigir um erro, e posteriormente pode-se mesclar a ramificação com a principal (main ou master)
