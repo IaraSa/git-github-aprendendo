@@ -6,6 +6,6 @@
 * Comando git push;
 * Comando pull;
 * Comando git fetch:
-    git fetch /br
-    git diff origin/main /br
-    git pull /br
+-       git fetch
+-       git diff origin/main
+-       git pull
