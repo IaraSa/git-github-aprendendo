@@ -5,3 +5,4 @@
 * Uso do comando git restore;
 * Comando git push;
 * Comando pull;
+* Comando git fetch;
