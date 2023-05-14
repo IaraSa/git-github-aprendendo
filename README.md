@@ -1,6 +1,7 @@
-
 # Curso Digital: GIT/Versionamento
 
-## Salvando alterações no repositório
+# Este repositório reúne a minha evolução usando o GIT e GitHub (CONHECIMENTO);
 
-* Comando git push
+## Curso Digital: GIT
+
+## Gravando mudanças no repositório

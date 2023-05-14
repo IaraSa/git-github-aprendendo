@@ -1,0 +1,71 @@
+Comandos básicos do GIT
+
+>> SETAR USUÁRIO
+	git config --global user.name "seu_usuario"
+
+>> SETAR E-MAIL
+	git config --global uer.name "seu_email@email.com"
+
+>> INICIAR VERSIONAMENTO DA PASTA
+	git init
+
+>> VERIFICAR O ESTADO DOS ARQUIVOS/DIRETÓRIOS
+	git status
+
+>> ADICIONAR ARQUIVOS E DIRETÓRIOS (STAGED AREA)
+ *ARQUIVO: 	
+	git add meu_arquivo.txt
+ *DIRETÓRIO:	
+	git add meu_diretorio
+ *TODOS OS ARQUIVOS E DIRETÓRIOS: 
+	git add .
+
+>> COMITAR ARQUIVOS E DIRETÓRIOS SEM INFORMAR UMA MENSAGEM
+ * ARQUIVO:
+	git commit meu_arquivo.txt
+ * DIRETÓRIO:
+	git commit meu_diretorio
+ * VÁRIOS ARQUIVOS
+	git commit meu_aquivo1.txt meu_aquivo2.txt
+
+>> COMITAR INFORMANDO MENSAGEM (referenciando qual a atualização)
+ * ARQUIVO:
+	git commit meu_arquivo.txt -m "minha mensagem de commit"
+ * DIRETÓRIO:
+	git commit meu_diretorio "minha mensagem de commit"
+
+>> REMOVER DIRETÓRIO/ARQUIVOS
+ * ARQUIVO:
+	git rm meu_arquivo.txt
+ * DIRETÓRIO:
+	git rm meu_diretorio.txt
+
+>> VISUALIZAR HISTÓRICO
+	git log
+
+>> EXIBIR REPOSITÓRIO REMOTO
+	git remote 
+	git remote -v
+
+>> VINCULAR REPOSITÓRIO LOCAL AO REPOSITÓRIO REMOTO
+	git remote add origin endereço@github.com:seuusuario/pasta
+
+>> ENVIAR ARQUIVOS E REPOSITÓRIOS PARA O REPOSITÓRIO REMOTO
+OBS.: O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+	git push -u origin main
+
+Demais push
+	git push
+
+>> EXIBIR INFORMAÇÕES DO REPOSITÓRIO REMOTO
+	git remote show origin
+
+>> RENOMEAR UM REPOSITÓRIO/ARQUIVO REMOTO
+ * ARQUIVO
+	git remote rename origin arquivo.txt
+ * REPOSITÓRIO
+	git remote rename origin nome_do_repositorio
+
+>> ATUALIZAR REPOSITÓRIO LOCAL DE ACORDO COM O REPOSIÓRIO REMOTO
+ * Atualizando arquivos no branch atual
+	git pull
