@@ -9,7 +9,11 @@
 -       git fetch
 -       git diff origin/main
 -       git pull
-* Comando BRANCH (Ramificações)
--       git branch testing
--       git log --oneline --decorate
+* Criando BRANCHS
+-       git branch testing (criando uma ramificação)
 -       git checkout testing
+-       git log --oneline --decorate
+-       git checkout main (voltando para a main)
+* Comando git merge
+-       git branch (saber em qual branch você está trabalhando)
+-       
